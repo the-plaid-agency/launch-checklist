@@ -5,13 +5,13 @@ The following pages will outline the general guidelines that involve checking a 
 
 ### Transactional Email
 
-All Wordpress website must install and setup the [Sendgrid](https://wordpress.org/plugins/sendgrid-email-delivery-simplified/) plugin.
+All Wordpress websites must install and configure the official [Sendgrid](https://wordpress.org/plugins/sendgrid-email-delivery-simplified/) plugin.
 
-An API key will need to be created for the website at [Sendgrid.com](https://sendgrid.com/) and then configured in the plugin. Credentials are available in Keepass.
+An API key will need to be created for the website at [Sendgrid.com](https://sendgrid.com/) and then configured in the plugin. Credentials for our Sendgrid account are available in Keepass.
 
-In addition to the API Key, [Sending Domain Authentication](https://sendgrid.com/docs/ui/account-and-settings/how-to-set-up-domain-authentication/) will need to be set up in order to ensure email has a high deliverability rate. We'll need access to the DNS for the website, or we'll need contact someone who does. Make sure to always complete this step if possible.
+In addition to the API Key, [Sending Domain Authentication](https://sendgrid.com/docs/ui/account-and-settings/how-to-set-up-domain-authentication/) will need to be set up in order to ensure email has a high deliverability rate. We'll need access to the DNS for the website to add the required values. Make sure to always complete this step if possible!
 
-Finally, ensure that all forms on the website use `wordpress@websitename.com` as the Sending Address. For the Sending Name, make sure to use the exact name of the website as it is written in Wordpress. Make sure to configure these settings in Sendgrid's settings page, Ninja Forms, Contact Form 7, and any other plugins that might send email.
+Finally, ensure that all forms on the website use `wordpress@websitename.com` as the Sending Address. For the Sending Name, make sure to use the exact name of the website as it is written in Wordpress (i.e. Website Name). Make sure to configure these settings in Sendgrid's plugin settings page, Ninja Forms, Contact Form 7, and any other plugins that might send email.
 
 ### Image Optimization
 
